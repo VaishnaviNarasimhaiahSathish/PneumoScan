@@ -22,11 +22,7 @@ The goal was to create a **simple, reliable, and easy-to-use** pipeline.
 
 ---
 
-## 📁 Repository Structure
-- data
-    - train 
-    - test 
-    - val
+##  Repository Structure
 - model 
     - pneumonia_resnet18_fast.pth ( Saved model weights)
 - train.py (training setup)
@@ -40,6 +36,7 @@ The goal was to create a **simple, reliable, and easy-to-use** pipeline.
 ```bash
 git clone https://github.com/yourusername/PneumoScan.git
 cd PneumoScan
+```
 
 2. Create the conda environment
 conda create -n pneumo python=3.10
@@ -58,7 +55,7 @@ The script will:
 3. Save the best performing model under model/
 Training defaults to 3 epochs for speed but can be increased
 
-##Running the Web App
+## Running the Web App
 
 Launch the Streamlit app with:
 streamlit run app.py
@@ -68,7 +65,7 @@ You can upload a chest X-ray image, and the model will output:
 - Confidence score
 - A color-coded result box (green/red)
 
-Model Performance (with a frozen backbone):
+## Model Performance (with a frozen backbone):
 
 After 3 fast epochs:
 - Validation Accuracy: ~75%
