@@ -39,17 +39,19 @@ cd PneumoScan
 ```
 
 2. Create the conda environment
-
+``` bash
 conda create -n pneumo python=3.10
 conda activate pneumo
+```
 
 3. Install the required packages
-
+```bash
 pip install -r requirements.txt
-
+```
 4. Training the Model
-
+``` bash
 python train.py
+```
 
 The script will:
 1. Load images from data/train, data/val, data/test
