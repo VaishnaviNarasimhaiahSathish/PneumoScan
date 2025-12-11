@@ -39,13 +39,16 @@ cd PneumoScan
 ```
 
 2. Create the conda environment
+
 conda create -n pneumo python=3.10
 conda activate pneumo
 
 3. Install the required packages
+
 pip install -r requirements.txt
 
 4. Training the Model
+
 python train.py
 
 The script will:
