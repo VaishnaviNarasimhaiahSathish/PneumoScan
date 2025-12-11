@@ -92,6 +92,6 @@ Performance improves with additional fine-tuning.
 Below is an example of the PneumoScan web interface:
 
 <p align="center">
-  <img src="/Users/apple/Desktop/PneumoScan/AppDemo/app.demo1.png" alt="App Screenshot" width="550">
+  <img src="/AppDemo/app.demo1.png" alt="App Screenshot" width="550">
 </p>
 
