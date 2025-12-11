@@ -46,7 +46,6 @@ conda activate pneumo
 pip install -r requirements.txt
 
 4. Training the Model
-If you want to retrain or fine-tune the model:
 python train.py
 
 The script will:
@@ -93,6 +92,6 @@ Performance improves with additional fine-tuning.
 Below is an example of the PneumoScan web interface:
 
 <p align="center">
-  <img src="AppDemo/appdemo1" alt="App Screenshot" width="550">
+  <img src="/Users/apple/Desktop/PneumoScan/AppDemo/app.demo1.png" alt="App Screenshot" width="550">
 </p>
 
